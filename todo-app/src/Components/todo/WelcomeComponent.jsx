@@ -33,7 +33,7 @@ export default function WelcomeComponent(){
     
     return (
     <div>
-       <h2>welcome ff {username}  </h2>
+       <h2>welcome {username}  </h2>
        your todos is <Link to="/todos">here</Link>
        <div>
             <button className='btn btn-success m-5' onClick={callHelloWorldRestApi}>
